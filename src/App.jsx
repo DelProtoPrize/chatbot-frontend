@@ -27,7 +27,7 @@ function App() {
 
     try {
       // 2. Send the message to your Node.js backend
-      const response = await fetch('http://localhost:5000/api/chat', {
+      const response = await fetch('https://my-ai-chatbot-backend-6dgv.onrender.com/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
